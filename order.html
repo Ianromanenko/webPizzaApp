@@ -1,0 +1,95 @@
+<!-- Yan Romanenko, Student ID: 300965052, File description: this is ordering screen of online ordering pizza, webDev assignment, Version: 0.1-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="pizza order assigment">
+  <meta name="keywords" content="toronto, pizza, online, pizza online, delivery, pizza delivery">
+  <meta name="author" content="Yan Romanenko">
+
+  <title>Pizza</title>
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Bootstrap css sourse file -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Header with navigation -->
+<nav class="navbar navbar-expand-lg navCol fixed-top">
+  <div class="container">
+    <div class="logo">
+      <a class="name" href="index.html"><img id="logo" src="images/logo.png" alt = "Best Pizza"/></a>
+    </div>
+    <div class="wordName">
+      <h2>Best pizza</h2>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#">Your profile</a>
+        <a class="dropdown-item" href="#">Find us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<h1 style="text-align: center; margin: 25px;">Order details</h1>
+
+
+<!-- Order -->
+  <div class="container">
+      <div class="col-lg-10 col-sm-10">
+        <h5>Name:</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+        <h5 style="margin-top: 10px;">Delivery adress:</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+        <h5 style="margin-top: 10px;">Telephone number:</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+        <h5 style="margin-top: 10px;">Card number:</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+        <h5 style="margin-top: 10px;">CVV:</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+        <h5 style="margin-top: 10px;">Expirity date(**/**):</h5>
+        <input type="text" name="fname" style="width: 100%; border: 1px solid grey; border-radius: 5px;">
+      </div>
+      <div class="form-group">
+        <button style="margin-top: 15px; margin-left: 15px;" class="btn btn-warning" type="submit"  onclick="location.href='detail.html'">Return</button>
+        <button style="margin-top: 15px; margin-left: 15px;" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Order</button>
+      </div>
+    <!-- Large modal -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <p>Confirmation text: ....</p>
+          <p>Confirmation number: ....</p>
+          <p>Status: ....</p>
+          <p>Price: ....</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="py-5 footer">
+  <div class="container">
+  <p class="footer">Created by Yan Romanenko</p>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+/*! Yan Romanenko, Student ID: 300965052, File description: this is css file  for online ordering pizza, webDev assignment, Version: 0.1 */
+
+
+.name{
+    font-size: large;
+    flood-color: #868e95; !important;
+}
+
+#logo {
+    height: 2em;
+}
+
+.navCol {
+    background: #c8d2dc;
+}
+
+.pizzaCont {
+    margin-bottom: 30px;
+}
+
+body {
+    padding-top: 54px;
+    background: linear-gradient(bisque, #c8d2dc )
+
+}
+
+.footer {
+    display: inline-block;
+    text-align: center;
+}
+
+.details {
+    margin: 40px;
+}
+
+
+
+@media (max-width: 799px){
+    .logo img {
+        display: none;
+    }
+}

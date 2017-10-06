@@ -1,0 +1,107 @@
+<!-- Yan Romanenko, Student ID: 300965052, File description: this is detail screen of online ordering pizza, webDev assignment, Version: 0.1-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="pizza order assigment">
+  <meta name="keywords" content="toronto, pizza, online, pizza online, delivery, pizza delivery">
+  <meta name="author" content="Yan Romanenko">
+
+  <title>Pizza</title>
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Bootstrap css sourse file -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Header with navigation -->
+<nav class="navbar navbar-expand-lg navCol fixed-top">
+  <div class="container">
+    <div class="logo">
+      <a class="name" href="index.html"><img id="logo" src="images/logo.png" alt = "Best Pizza"/></a>
+    </div>
+    <div class="wordName">
+      <h2>Best pizza</h2>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#">Your profile</a>
+        <a class="dropdown-item" href="#">Find us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<h1 style="text-align: center; margin: 25px;">Details to your order</h1>
+
+  <!-- Details -->
+  <div class="container">
+    <section class="details">
+      <div class="row">
+
+        <div class="col-lg-6 col-sm-10 pizzaCont">
+          <div class="card pizzaType"><a href="detail.html"><img class="card-img-top" src="images/1.png" alt="MEAT LOVER'S"></a>
+            <div class="card-body">
+              <h4 class="card-title"><a href="detail.html">MEAT LOVER'S</a></h4>
+              <p class="card-text">Pepperoni, Italian sausage, mild sausage, beef topping, ham, bacon crumble and pizza mozzarella.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-10 pizzaCont">
+          <div class="form-group">
+            <span>Extra toppings:</span>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Onion</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Cheese</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Olives</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="size">Size:</label>
+            <select class="form-control" id="size">
+              <option>30cm - 12$</option>
+              <option>45cm - 15$</option>
+              <option>70cm - 19$</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="Quantity">Quantity:</label>
+            <input type="number" class="form-control" id="Quantity">
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="location.href='order.html'">Order</button>
+          <button type="submit" class="btn btn-warning" onclick="location.href='index.html'">Return</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+<!-- Footer -->
+<footer class="py-5 footer">
+  <div class="container">
+  <p class="footer">Created by Yan Romanenko</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
